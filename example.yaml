@@ -1,0 +1,19 @@
+external_components:
+  - source:
+      type: local
+      path: ./components
+
+smtp_notifier:
+  id: mailer
+  host: "mail.yourdomain.local"
+  port: 25
+  username: "esp@yourdomain.local"
+  password: "yourpassword"
+  from: "esp@yourdomain.local"
+  to: "you@yourdomain.local"
+
+script:
+  - id: send_email_on_trigger
+    then:
+      - lambda: |-
+          id(mailer).send_mail("Alarm Triggered", "The sensor has been activated.");

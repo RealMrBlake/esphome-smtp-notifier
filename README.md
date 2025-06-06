@@ -1,8 +1,3 @@
-Hier ist eine professionelle, englischsprachige `README.md` für dein GitHub-Projekt **`esphome-smtp-notifier`**, inklusive Beschreibung, Features, YAML-Beispiel und Anleitung zur Integration:
-
----
-
-```markdown
 # ESPHome SMTP Notifier
 
 A lightweight, production-ready SMTP component for ESPHome that allows your ESP32 devices to send plain-text email notifications directly via an SMTP server.
@@ -80,8 +75,4 @@ MIT License – free to use, modify, and share.
 
 ## ❤️ Credits
 
-Developed by [Louis](https://github.com/dein-nutzername) – inspired by the need for secure, offline-capable ESPHome alerts.
-
-```
-
----
+Developed by [Louis](https://github.com/RealMrBlake) – inspired by the need for secure, offline-capable ESPHome alerts.
